@@ -7,8 +7,7 @@ puts "Voici la pyramide :"
 
 num = val.to_i
 
-
-
+#POUR LA PYRAMIDE DESCENDANTE
 for i in 0...num
 
 	for l in 0..i
@@ -18,3 +17,16 @@ for i in 0...num
 	puts " "
 end
 
+puts " "
+
+#POUR LA PYRAMIDE MONTANTE
+for i in 0...num
+	for k in 0..i
+		print " "
+	end
+	for l in 0..i
+		print "#"
+	end
+
+	puts " "
+end
